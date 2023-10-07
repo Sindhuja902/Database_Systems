@@ -1,0 +1,876 @@
+CREATE (u1:User{ 
+user_id:'u1',first_name:'Sindhuja',last_name:'Yerramalla',email:'yerramallasinndhuja902@gmail.com',gender:'Female',password:'Password',user_name:'Sindhuja_yerramalla',date_of_birth:'09/04/1999',country:'India',is_active:1,mobile_number:'9012181321',date_joined:'6/19/2020' })
+CREATE (u2:User{ 
+user_id:'u2',first_name:'Venkatesh',last_name:'Panguluri',email:'venkateshpanguluri@gmail.com',gender:'male',password:'Password',user_name:'Venkatesh_panguluri',date_of_birth:'10/04/1997',country:'India',is_active:1,mobile_number:'9014381092',date_joined:'7/12/2021' })
+CREATE (u3:User{ 
+user_id:'u3',first_name:'John',last_name:'Bell',email:'JohnBell@gmail.com',gender:'male',password:'Password',user_name:'john_bell',date_of_birth:'06/26/1998',country:'USA',is_active:1,mobile_number:'9012648321',date_joined:'6/19/2017' })
+CREATE (u4:User{ 
+user_id:'u4',first_name:'Amir',last_name:'Khan',email:'Amirkhan@gmail.com',gender:'male',password:'Password',user_name:'Amir_khan',date_of_birth:'07/26/1986',country:'India',is_active:1,mobile_number:'9012658221',date_joined:'6/19/2019' })
+CREATE (u5:User{ 
+user_id:'u5',first_name:'Donald',last_name:'Trump',email:'Donald_trump@gmail.com',gender:'male',password:'Password',user_name:'Donald_trump',date_of_birth:'03/25/1956',country:'USA',is_active:1,mobile_number:'9058648321',date_joined:'7/29/2017' })
+CREATE (u6:User{ 
+user_id:'u6',first_name:'latha',last_name:'mangeskar',email:'lathamangeskar@gmail.com',gender:'female',password:'Password',user_name:'latha_123',date_of_birth:'08/31/1962',country:'India',is_active:1,mobile_number:'9032648321',date_joined:'6/25/2017' })
+CREATE (u7:User{ 
+user_id:'u7',first_name:'krithi',last_name:'shetty',email:'krithishetty@gmail.com',gender:'female',password:'Password',user_name:'krithi_shetty',date_of_birth:'06/26/1998',country:'India',is_active:1,mobile_number:'9012648321',date_joined:'6/19/2017' })
+CREATE (u8:User{ 
+user_id:'u8',first_name:'taylor',last_name:'swift',email:'taylorswift@gmail.com',gender:'female',password:'Password',user_name:'taylor_1979',date_of_birth:'06/26/1988',country:'USA',is_active:1,mobile_number:'9522648321',date_joined:'6/18/2017' })
+CREATE (u9:User{ 
+user_id:'u9',first_name:'Usama',last_name:'Binladin',email:'UsamaBinladin@gmail.com',gender:'male',password:'Password',user_name:'Usama_hj',date_of_birth:'04/24/1981',country:'Pakistan',is_active:1,mobile_number:'9012646581',date_joined:'6/19/2017' })
+CREATE (u10:User{ 
+user_id:'u10',first_name:'ram gopal',last_name:'varma',email:'ramvarma@gmail.com',gender:'male',password:'Password',user_name:'rgv_tweets',date_of_birth:'06/26/1998',country:'India',is_active:1,mobile_number:'90169698321',date_joined:'6/09/1969' })
+CREATE (u11:User{ 
+user_id:'u11',first_name:'Sam',last_name:'Williams',email:'Samwilliams@gmail.com',gender:'male',password:'Password',user_name:'sam_williams',date_of_birth:'07/22/1998',country:'USA',is_active:1,mobile_number:'9016969221',date_joined:'06/10/2018' })
+CREATE (u12:User{ 
+user_id:'u12',first_name:'Robert',last_name:'White',email:'RobertWhite@gmail.com',gender:'male',password:'Password',user_name:'sam_williams',date_of_birth:'07/22/1998',country:'USA',is_active:1,mobile_number:'9096969221',date_joined:'06/10/2020' })
+CREATE (u13:User{ 
+user_id:'u13',first_name:'Snow',last_name:'White',email:'Snowwhite@gmail.com',gender:'female',password:'Password',user_name:'snow_white',date_of_birth:'09/22/1998',country:'USA',is_active:1,mobile_number:'9016969231',date_joined:'06/10/2021' })
+CREATE (u14:User{ 
+user_id:'u14',first_name:'Karan',last_name:'johar',email:'karanJohar@gmail.com',gender:'male',password:'Passcheck',user_name:'karan_johar',date_of_birth:'07/22/1998',country:'USA',is_active:1,mobile_number:'9016969221',date_joined:'06/10/2021' })
+CREATE (u15:User{ 
+user_id:'u15',first_name:'Aishwarya',last_name:'Roy',email:'AishwaryaRoy@gmail.com',gender:'female',password:'Passcheck',user_name:'Aishwarua_roy',date_of_birth:'07/22/1998',country:'India',is_active:1,mobile_number:'9016969258',date_joined:'07/18/2022' })
+CREATE (u16:User{ 
+user_id:'u16',first_name:'salman',last_name:'khan',email:'salmankhan@gmail.com',gender:'male',password:'Passcheck',user_name:'karan_johar',date_of_birth:'07/22/1998',country:'India',is_active:1,mobile_number:'9015069221',date_joined:'06/18/2022' })
+CREATE (u17:User{ 
+user_id:'u17',first_name:'Amithab',last_name:'bachan',email:'amithabbachan@gmail.com',gender:'male',password:'Passcheck',user_name:'karan_johar',date_of_birth:'07/22/1998',country:'India',is_active:1,mobile_number:'9015059221',date_joined:'06/05/2022' })
+CREATE (u18:User{ 
+user_id:'u18',first_name:'Zoya',last_name:'christina',email:'zoyachristina@gmail.com',gender:'female',password:'Passcheck',user_name:'zoya_christina',date_of_birth:'08/26/1998',country:'India',is_active:0,mobile_number:'6625059221',date_joined:'06/05/2022' })
+CREATE (u19:User{ 
+user_id:'u18',first_name:'mucheto',last_name:'gonzalez',email:'muchetoxx@gmail.com',gender:'male',password:'Passcheck',user_name:'zoya_christina',date_of_birth:'08/26/1998',country:'mexican',is_active:0,mobile_number:'6626559221',date_joined:'06/05/2022' })
+CREATE (u20:User{ 
+user_id:'u20',first_name:'linda',last_name:'caty',email:'lindacaty@gmail.com',gender:'female',password:'Passcheck',user_name:'linda_caty',date_of_birth:'08/15/1998',country:'mexican',is_active:1,mobile_number:'6626566661',date_joined:'06/05/2016' })
+CREATE (u21:User{ 
+user_id:'u21',first_name:'siraj',last_name:'mohammad',email:'sirajmoham@gmail.com',gender:'male',password:'Passcheck',user_name:'siraj_598',date_of_birth:'08/03/1996',country:'Pakistan',is_active:1,mobile_number:'6626566691',date_joined:'06/05/2016' })
+CREATE (u22:User{ 
+user_id:'u22',first_name:'Elon',last_name:'musk',email:'elonmusk@gmail.com',gender:'male',password:'Passcheck',user_name:'Emusk',date_of_birth:'08/15/1972',country:'American',is_active:1,mobile_number:'6626566661',date_joined:'06/05/2016' })
+CREATE (u23:User{ 
+user_id:'u23',first_name:'mary',last_name:'Love',email:'marylove@gmail.com.com',gender:'female',password:'Passcheck',user_name:'linda_caty',date_of_birth:'08/15/1998',country:'Eutopia',is_active:1,mobile_number:'6626566661',date_joined:'06/04/2016' })
+CREATE (u24:User{ 
+user_id:'u24',first_name:'linda',last_name:'caty',email:'lindacaty69@gmail.com',gender:'female',password:'Passcheck',user_name:'linda_caty',date_of_birth:'08/15/1998',country:'mexican',is_active:1,mobile_number:'6627566661',date_joined:'06/05/2016' })
+CREATE (u25:User{ 
+user_id:'u25',first_name:'Beyonce',last_name:'ROSE',email:'brose@gmail.com',gender:'female',password:'Passcheck',user_name:'beyonce_rose',date_of_birth:'09/10/1998',country:'America',is_active:1,mobile_number:'6626568661',date_joined:'06/05/2017' })
+CREATE (u26:User{ 
+user_id:'u26',first_name:'catherine',last_name:'pierce',email:'cattypeirce@gmail.com',gender:'male',password:'Passchec',user_name:'pierce_caty',date_of_birth:'10/15/1998',country:'Franc',is_active:1,mobile_number:'6626566615',date_joined:'06/05/2019' })
+CREATE (u27:User{ 
+user_id:'u27',first_name:'robert',last_name:'rose',email:'robertrose@gmail.com',gender:'male',password:'Passcheck',user_name:'robert_rose',date_of_birth:'08/11/1996',country:'American',is_active:1,mobile_number:'6626566662',date_joined:'06/05/2017' })
+CREATE (u28:User{ 
+user_id:'u28',first_name:'damon',last_name:'salvatore',email:'damonsalvatore@gmail.com',gender:'male',password:'Passcheck',user_name:'linda_caty',date_of_birth:'08/11/1996',country:'American',is_active:1,mobile_number:'6626565661',date_joined:'06/05/2016' })
+CREATE (u29:User{ 
+user_id:'u29',first_name:'klaus',last_name:'niklaus',email:'klausniklaus@gmail.com',gender:'male',password:'Passcheck',user_name:'nik_niklaus',date_of_birth:'05/14/1998',country:'Persia',is_active:1,mobile_number:'6626566661',date_joined:'06/04/2017' })
+CREATE (u30:User{ 
+user_id:'u30',first_name:'bill',last_name:'maher',email:'billmaher@gmail.com',gender:'male',password:'Passyubf',user_name:'bill_maher',date_of_birth:'06/14/1997',country:'America',is_active:1,mobile_number:'6626566751',date_joined:'06/04/2016' })
+CREATE (u31:User{ 
+user_id:'u31',first_name:'kushal',last_name:'bhagia',email:'kushalbhagia@gmail.com',gender:'male',password:'Passcheck',user_name:'kushal_bhagia',date_of_birth:'02/15/1998',country:'India',is_active:1,mobile_number:'6626566662',date_joined:'06/04/2019' })
+CREATE (u32:User{ 
+user_id:'u32',first_name:'pranay',last_name:'pathole',email:'pranaypathole@gmail.com',gender:'female',password:'Passcheck',user_name:'pranay_patole',date_of_birth:'01/15/1998',country:'India',is_active:1,mobile_number:'6626566662',date_joined:'06/04/2019' })
+CREATE (u33:User{ 
+user_id:'u33',first_name:'peter',last_name:'coles',email:'petercoles@gmail.com',gender:'male',password:'Passcheck',user_name:'peter_coles',date_of_birth:'06/15/1987',country:'America',is_active:1,mobile_number:'9926566662',date_joined:'06/04/2015' })
+CREATE (u34:User{ 
+user_id:'u34',first_name:'johnna',last_name:'cyder',email:'johnnacyder@gmail.com',gender:'female',password:'Passcheck',user_name:'johnnacyder',date_of_birth:'01/12/1960',country:'America',is_active:1,mobile_number:'6632566662',date_joined:'06/04/2019' })
+CREATE (u35:User{ 
+user_id:'u35',first_name:'joshua',last_name:'nelson',email:'joshuanelson@gmail.com',gender:'male',password:'Passcheck',user_name:'joshua_nelson',date_of_birth:'01/12/1960',country:'America',is_active:1,mobile_number:'6631266662',date_joined:'06/04/2019' })
+CREATE (u36:User{ 
+user_id:'u36',first_name:'adivi',last_name:'sesh',email:'adivisesh@gmail.com',gender:'male',password:'Passcheck',user_name:'adivisesh',date_of_birth:'01/12/1961',country:'India',is_active:1,mobile_number:'9515139025',date_joined:'06/04/2016' })
+CREATE (u37:User{ 
+user_id:'u37',first_name:'akanksha',last_name:'singh',email:'akankshasingh@gmail.com',gender:'female',password:'Passcheck',user_name:'akankshasingh',date_of_birth:'06/16/1963',country:'India',is_active:1,mobile_number:'6601266662',date_joined:'06/04/2019' })
+CREATE (u38:User{ 
+user_id:'u38',first_name:'Alex',last_name:'jones',email:'alexjones@gmail.com',gender:'male',password:'Passghjck',user_name:'alexjones',date_of_birth:'01/12/1963',country:'America',is_active:1,mobile_number:'6626531262',date_joined:'06/04/2017' })
+CREATE (u39:User{ 
+user_id:'u39',first_name:'Alex',last_name:'kenny',email:'alexkenny@gmail.com',gender:'male',password:'Passghjck',user_name:'alexjones',date_of_birth:'01/12/1968',country:'America',is_active:1,mobile_number:'6125531262',date_joined:'06/05/2019' })
+CREATE (u40:User{ 
+user_id:'u40',first_name:'Alex',last_name:'jones',email:'alexjones@gmail.com',gender:'male',password:'Passghjck',user_name:'alexjones',date_of_birth:'01/12/1963',country:'America',is_active:1,mobile_number:'6624561262',date_joined:'06/04/2017' })
+CREATE (u41:User{ 
+user_id:'u41',first_name:'venugopalreddy',last_name:'bhavanam',email:'vgreddybhavanam@gmail.com',gender:'male',password:'Passghjck',user_name:'venugopalreddy',date_of_birth:'01/12/1966',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+CREATE (u42:User{ 
+user_id:'u42',first_name:'kushwanth',last_name:'neela',email:'kushwanthneela@gmail.com',gender:'male',password:'Passghjck',user_name:'kushwanthneela',date_of_birth:'06/13/1999',country:'India',is_active:1,mobile_number:'9125566258',date_joined:'06/04/2018' })
+CREATE (u43:User{ 
+user_id:'u43',first_name:'manivardhanreddy',last_name:'pindi',email:'mvrpindi@gmail.com',gender:'male',password:'Passghjck',user_name:'mvrreddy',date_of_birth:'01/12/1999',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+CREATE (u44:User{ 
+user_id:'u44',first_name:'tejaswini',last_name:'kotha',email:'tejaswinikotha@gmail.com',gender:'female',password:'Passghjck',user_name:'tejaswinikotha',date_of_birth:'01/12/1966',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+CREATE (u45:User{ 
+user_id:'u45',first_name:'venumadhavreddy',last_name:'masini',email:'vmreddymasini@gmail.com',gender:'male',password:'Passghjck',user_name:'vmreddy',date_of_birth:'07/11/1998',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+CREATE (u46:User{ 
+user_id:'u46',first_name:'venugopalreddy',last_name:'bhavanam',email:'vgreddybhavanam@gmail.com',gender:'male',password:'Passghjck',user_name:'venugopalreddy',date_of_birth:'01/12/1966',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+CREATE (u47:User{ 
+user_id:'u47',first_name:'nikitha',last_name:'manchana',email:'nikithamanchana@gmail.com',gender:'female',password:'nikki2246',user_name:'nikithamanchana',date_of_birth:'01/12/1972',country:'India',is_active:1,mobile_number:'6624558158',date_joined:'06/04/2018' })
+CREATE (u48:User{ 
+user_id:'u48',first_name:'venugopalreddy',last_name:'bhavanam',email:'vgreddybhavanam@gmail.com',gender:'male',password:'Passghjck',user_name:'venugopalreddy',date_of_birth:'01/12/1966',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+CREATE (u49:User{ 
+user_id:'u49',first_name:'akshitha',last_name:'manchukonda',email:'akshithamanchukonda@gmail.com',gender:'female',password:'akki158',user_name:'akshithamanchukonda',date_of_birth:'01/12/1979',country:'India',is_active:1,mobile_number:'6624566215',date_joined:'06/04/2018' })
+CREATE (u50:User{ 
+user_id:'u50',first_name:'lakshmi',last_name:'manchu',email:'lakshmimanchu@gmail.com',gender:'female',password:'lakki156',user_name:'lakshmimanchu',date_of_birth:'01/12/1974',country:'India',is_active:1,mobile_number:'6624566258',date_joined:'06/04/2018' })
+
+
+
+
+
+CREATE (f1:Followers{ 
+follower_id:'u1',user_id:'u2',created_at:'1/1/2022 12:00:00 AM' })
+CREATE (f1)-[:FOLLOWS]->(u2)
+CREATE (f2:Followers{ 
+follower_id:'u2',user_id:'u1',created_at:'1/1/2022 12:00:00 AM' })
+CREATE (f2)-[:FOLLOWS]->(u1)
+CREATE (f3:Followers{ 
+follower_id:'u3',user_id:'u1',created_at:'1/1/2022 12:56:00 AM' })
+CREATE (f3)-[:FOLLOWS]->(u1)
+CREATE (f4:Followers{ 
+follower_id:'u4',user_id:'u5',created_at:'6/7/2022 12:56:00 AM' })
+CREATE (f4)-[:FOLLOWS]->(u5)
+CREATE (f5:Followers{ 
+follower_id:'u5',user_id:'u17',created_at:'6/9/2020 12:56:04 AM' })
+CREATE (f5)-[:FOLLOWS]->(u17)
+CREATE (f6:Followers{ 
+follower_id:'u6',user_id:'u19',created_at:'6/9/2021 12:56:54 AM' })
+CREATE (f6)-[:FOLLOWS]->(u19)
+CREATE (f7:Followers{ 
+follower_id:'u7',user_id:'u19',created_at:'6/9/2019 12:56:54 AM' })
+CREATE (f7)-[:FOLLOWS]->(u19)
+CREATE (f8:Followers{ 
+follower_id:'u8',user_id:'u20',created_at:'7/10/2019 10:56:54 AM' })
+CREATE (f8)-[:FOLLOWS]->(u20)
+CREATE (f9:Followers{ 
+follower_id:'u9',user_id:'u21',created_at:'7/10/2019 10:56:04 AM' })
+CREATE (f9)-[:FOLLOWS]->(u21)
+CREATE (f10:Followers{ 
+follower_id:'u10',user_id:'u20',created_at:'7/10/2019 11:56:54 AM' })
+CREATE (f10)-[:FOLLOWS]->(u20)
+CREATE (f11:Followers{ 
+follower_id:'u11',user_id:'u21',created_at:'7/10/2018 11:56:54 AM' })
+CREATE (f11)-[:FOLLOWS]->(u21)
+CREATE (f12:Followers{ 
+follower_id:'u12',user_id:'u21',created_at:'8/11/2019 10:56:54 AM' })
+CREATE (f12)-[:FOLLOWS]->(u21)
+CREATE (f13:Followers{ 
+follower_id:'u13',user_id:'u21',created_at:'7/10/2019 10:56:54 AM' })
+CREATE (f13)-[:FOLLOWS]->(u21)
+CREATE (f14:Followers{ 
+follower_id:'u14',user_id:'u21',created_at:'7/10/2019 10:56:54 AM' })
+CREATE (f14)-[:FOLLOWS]->(u21)
+CREATE (f15:Followers{ 
+follower_id:'u15',user_id:'u21',created_at:'7/10/2019 10:56:54 AM' })
+CREATE (f15)-[:FOLLOWS]->(u21)
+CREATE (f16:Followers{ 
+follower_id:'u16',user_id:'u22',created_at:'8/11/2019 10:56:54 AM' })
+CREATE (f16)-[:FOLLOWS]->(u22)
+CREATE (f17:Followers{ 
+follower_id:'u17',user_id:'u22',created_at:'9/11/2018 10:56:54 AM' })
+CREATE (f17)-[:FOLLOWS]->(u22)
+CREATE (f18:Followers{ 
+follower_id:'u18',user_id:'u21',created_at:'5/10/2017 10:56:24 AM' })
+CREATE (f18)-[:FOLLOWS]->(u21)
+CREATE (f19:Followers{ 
+follower_id:'u19',user_id:'u22',created_at:'8/12/2017 10:56:24 AM' })
+CREATE (f19)-[:FOLLOWS]->(u22)
+CREATE (f20:Followers{ 
+follower_id:'u20',user_id:'u6',created_at:'8/12/2017 11:20:24 AM' })
+CREATE (f20)-[:FOLLOWS]->(u6)
+CREATE (f21:Followers{ 
+follower_id:'u21',user_id:'u19',created_at:'8/12/2019 11:21:24 AM' })
+CREATE (f21)-[:FOLLOWS]->(u19)
+CREATE (f22:Followers{ 
+follower_id:'u20',user_id:'u1',created_at:'8/12/2017 11:20:24 AM' })
+CREATE (f22)-[:FOLLOWS]->(u1)
+CREATE (f23:Followers{ 
+follower_id:'u23',user_id:'u1',created_at:'8/12/2017 11:20:25 AM' })
+CREATE (f23)-[:FOLLOWS]->(u1)
+CREATE (f24:Followers{ 
+follower_id:'u24',user_id:'u1',created_at:'8/12/2017 11:21:24 AM' })
+CREATE (f24)-[:FOLLOWS]->(u1)
+CREATE (f25:Followers{ 
+follower_id:'u25',user_id:'u1',created_at:'8/12/2017 11:21:24 AM' })
+CREATE (f25)-[:FOLLOWS]->(u1)
+CREATE (f26:Followers{ 
+follower_id:'u24',user_id:'u2',created_at:'9/12/2017 11:21:24 AM' })
+CREATE (f26)-[:FOLLOWS]->(u2)
+CREATE (f27:Followers{ 
+follower_id:'u27',user_id:'u1',created_at:'8/12/2017 11:20:24 AM' })
+CREATE (f27)-[:FOLLOWS]->(u1)
+CREATE (f28:Followers{ 
+follower_id:'u28',user_id:'u5',created_at:'8/12/2016 11:21:24 AM' })
+CREATE (f28)-[:FOLLOWS]->(u5)
+CREATE (f29:Followers{ 
+follower_id:'u29',user_id:'u5',created_at:'8/12/2019 11:21:24 AM' })
+CREATE (f29)-[:FOLLOWS]->(u5)
+CREATE (f30:Followers{ 
+follower_id:'u30',user_id:'u5',created_at:'9/12/2019 11:21:24 AM' })
+CREATE (f30)-[:FOLLOWS]->(u5)
+CREATE (f31:Followers{ 
+follower_id:'u31',user_id:'u5',created_at:'8/12/2020 11:21:24 AM' })
+CREATE (f31)-[:FOLLOWS]->(u5)
+CREATE (f32:Followers{ 
+follower_id:'u32',user_id:'u5',created_at:'8/12/2020 11:21:25 AM' })
+CREATE (f32)-[:FOLLOWS]->(u5)
+CREATE (f33:Followers{ 
+follower_id:'u33',user_id:'u5',created_at:'8/12/2020 11:21:26 AM' })
+CREATE (f33)-[:FOLLOWS]->(u5)
+CREATE (f34:Followers{ 
+follower_id:'u34',user_id:'u5',created_at:'8/12/2020 11:21:24 AM' })
+CREATE (f34)-[:FOLLOWS]->(u5)
+CREATE (f35:Followers{ 
+follower_id:'u35',user_id:'u5',created_at:'8/12/2020 11:21:25 AM' })
+CREATE (f35)-[:FOLLOWS]->(u5)
+CREATE (f36:Followers{ 
+follower_id:'u36',user_id:'u5',created_at:'8/12/2020 11:21:26 AM' })
+CREATE (f36)-[:FOLLOWS]->(u5)
+CREATE (f37:Followers{ 
+follower_id:'u37',user_id:'u5',created_at:'8/12/2020 11:21:27 AM' })
+CREATE (f37)-[:FOLLOWS]->(u5)
+CREATE (f38:Followers{ 
+follower_id:'u33',user_id:'u5',created_at:'8/12/2020 11:21:28 AM' })
+CREATE (f38)-[:FOLLOWS]->(u5)
+CREATE (f39:Followers{ 
+follower_id:'u39',user_id:'u6',created_at:'8/12/2020 11:21:29 AM' })
+CREATE (f39)-[:FOLLOWS]->(u6)
+CREATE (f40:Followers{ 
+follower_id:'u40',user_id:'u6',created_at:'8/12/2020 11:21:30 AM' })
+CREATE (f40)-[:FOLLOWS]->(u6)
+CREATE (f41:Followers{ 
+follower_id:'u41',user_id:'u6',created_at:'8/12/2020 11:21:32 AM' })
+CREATE (f41)-[:FOLLOWS]->(u6)
+CREATE (f42:Followers{ 
+follower_id:'u42',user_id:'u6',created_at:'8/12/2020 11:21:33 AM' })
+CREATE (f42)-[:FOLLOWS]->(u6)
+CREATE (f43:Followers{ 
+follower_id:'u43',user_id:'u6',created_at:'8/12/2020 11:21:34 AM' })
+CREATE (f43)-[:FOLLOWS]->(u6)
+CREATE (f44:Followers{ 
+follower_id:'u44',user_id:'u6',created_at:'8/12/2020 11:21:35 AM' })
+CREATE (f44)-[:FOLLOWS]->(u6)
+CREATE (f45:Followers{ 
+follower_id:'u45',user_id:'u7',created_at:'8/12/2020 11:21:29 AM' })
+CREATE (f45)-[:FOLLOWS]->(u7)
+CREATE (f46:Followers{ 
+follower_id:'u46',user_id:'u7',created_at:'8/12/2020 11:21:36 AM' })
+CREATE (f46)-[:FOLLOWS]->(u7)
+CREATE (f47:Followers{ 
+follower_id:'u47',user_id:'u7',created_at:'8/12/2020 11:21:37 AM' })
+CREATE (f47)-[:FOLLOWS]->(u7)
+CREATE (f48:Followers{ 
+follower_id:'u48',user_id:'u7',created_at:'8/12/2020 11:21:33 AM' })
+CREATE (f48)-[:FOLLOWS]->(u7)
+CREATE (f49:Followers{ 
+follower_id:'u49',user_id:'u8',created_at:'8/12/2020 11:21:34 AM' })
+CREATE (f49)-[:FOLLOWS]->(u8)
+CREATE (f50:Followers{ 
+follower_id:'u50',user_id:'u8',created_at:'8/12/2020 11:21:34 PM' })
+CREATE (f50)-[:FOLLOWS]->(u8)
+
+
+
+
+
+
+
+
+CREATE (t1:Feed{ 
+feed_id:'t1',user_id:'u1',created_at:'1/1/2022 12:00:00 AM',feed:'GOT ENGAGED' })
+CREATE (u1)-[:TWEETED]->(t1)
+CREATE (t2:Feed{ 
+feed_id:'t2',user_id:'u2',created_at:'6/7/2020 12:56:00 AM',feed:'Happy friendship day' })
+CREATE (u2)-[:TWEETED]->(t2)
+CREATE (t3:Feed{ 
+feed_id:'t3',user_id:'u7',created_at:'6/5/2020 10:20:30 AM',feed:'whatsapp cofounder said it is time to delete facebook' })
+CREATE (u7)-[:TWEETED]->(t3)
+CREATE (t4:Feed{ 
+feed_id:'t4',user_id:'u1',created_at:'1/1/2022 12:00:00 AM',feed:'GOT ENGAGED' })
+CREATE (u1)-[:TWEETED]->(t4)
+CREATE (t5:Feed{ 
+feed_id:'t5',user_id:'u2',created_at:'1/1/2012 12:00:00 AM',feed:'Shockingly awful work conditions' })
+CREATE (u2)-[:TWEETED]->(t5)
+CREATE (t6:Feed{ 
+feed_id:'t6',user_id:'u6',created_at:'4/5/2017 12:00:00 AM',feed:'They should have someone come to Kenosha, WI and do same at their plant here.' })
+CREATE (u6)-[:TWEETED]->(t6)
+CREATE (t7:Feed{ 
+feed_id:'t7',user_id:'u7',created_at:'9/6/2022 11:00:50 AM',feed:'Todays young people do not have the same stamina as our older Americans had back when.' })
+CREATE (u7)-[:TWEETED]->(t7)
+CREATE (t8:Feed{ 
+feed_id:'t8',user_id:'u15',created_at:'9/6/2022 11:55:50 AM',feed:'Retweet to win a CNFT incl. WL' })
+CREATE (u15)-[:TWEETED]->(t8)
+CREATE (t9:Feed{ 
+feed_id:'t9',user_id:'u16',created_at:'9/16/2022 11:53:50 AM',feed:'Dont you think there are invaders living somewhere amongs us.' })
+CREATE (u16)-[:TWEETED]->(t9)
+CREATE (t10:Feed{ 
+feed_id:'t10',user_id:'u17',created_at:'10/17/2021 11:56:50 PM',feed:'Best Guess wins a CNFT incl. WL and I will reveal something once it hits 300 Retweets' })
+CREATE (u17)-[:TWEETED]->(t10)
+CREATE (t11:Feed{ 
+feed_id:'t11',user_id:'u11',created_at:'10/11/2021 11:54:50 AM',feed:'BIGGEST GIVEAWAY YET' })
+CREATE (u11)-[:TWEETED]->(t11)
+CREATE (t12:Feed{ 
+feed_id:'t12',user_id:'u12',created_at:'10/11/2019 11:54:50 AM',feed:'Trust no Address being posted, We are minting only from our website.' })
+CREATE (u12)-[:TWEETED]->(t12)
+CREATE (t13:Feed{ 
+feed_id:'t13',user_id:'u13',created_at:'10/10/2017 10:55:03 AM',feed:'Keep interacting with our tweets to increase your chances of being noticed' })
+CREATE (u13)-[:TWEETED]->(t13)
+CREATE (t14:Feed{ 
+feed_id:'t14',user_id:'u14',created_at:'12/11/2018 10:52:03 AM',feed:'Bernard Boys Mafia x Nakano' })
+CREATE (u14)-[:TWEETED]->(t14)
+CREATE (t15:Feed{ 
+feed_id:'t15',user_id:'u19',created_at:'12/11/2018 10:52:03 AM',feed:'Interact with the tweet and get yourself a chance to win OG role.' })
+CREATE (u19)-[:TWEETED]->(t15)
+CREATE (t16:Feed{ 
+feed_id:'t16',user_id:'u17',created_at:'12/11/2018 10:52:53 AM',feed:'Sneak Peek Friday is here.' })
+CREATE (u17)-[:TWEETED]->(t15)
+CREATE (t17:Feed{ 
+feed_id:'t17',user_id:'u17',created_at:'17/9/2018 11:52:53 AM',feed:'We are giving away 5 WL spots for the Reptiles upcoming mint' })
+CREATE (u17)-[:TWEETED]->(t17)
+CREATE (t18:Feed{ 
+feed_id:'t18',user_id:'u18',created_at:'18/10/2017 10:51:53 AM',feed:'Hot mic captured Gaetz assuring Stone of pardon, discussing Mueller redactions' })
+CREATE (u18)-[:TWEETED]->(t18)
+CREATE (t19:Feed{ 
+feed_id:'t19',user_id:'u19',created_at:'16/10/2019 10:51:53 PM',feed:'The hard truth about the United States is that the money other countries spend on health and infrastructure, we spend on war.' })
+CREATE (u19)-[:TWEETED]->(t19)
+CREATE (t20:Feed{ 
+feed_id:'t20',user_id:'u20',created_at:'17/10/2018 10:52:55 AM',feed:'Hannity assembles a diverse panel of experts to discuss racism' })
+CREATE (u20)-[:TWEETED]->(t20)
+CREATE (t21:Feed{ 
+feed_id:'t21',user_id:'u1',created_at:'17/10/2016 10:52:55 AM',feed:'wishing everyone with less than 350 followers a very nice day' })
+CREATE (u1)-[:TWEETED]->(t21)
+CREATE (t22:Feed{ 
+feed_id:'t22',user_id:'u1',created_at:'12/11/2019 10:52:53 PM',feed:'Working in progress…' })
+CREATE (u1)-[:TWEETED]->(t22)
+CREATE (t23:Feed{ 
+feed_id:'t23',user_id:'u2',created_at:'12/11/2019 10:52:54 PM',feed:'Sometimes nature is all you need.' })
+CREATE (u2)-[:TWEETED]->(t23)
+CREATE (t24:Feed{ 
+feed_id:'t24',user_id:'u2',created_at:'13/11/2019 10:52:54 PM',feed:'Just me trying to cover my french beard.' })
+CREATE (u2)-[:TWEETED]->(t24)
+CREATE (t25:Feed{ 
+feed_id:'t25',user_id:'u2',created_at:'13/11/2019 10:52:55 PM',feed:'Ask yourself what makes you scare and do that twice.' })
+CREATE (u2)-[:TWEETED]->(t25)
+CREATE (t26:Feed{ 
+feed_id:'t26',user_id:'u2',created_at:'13/11/2019 10:52:55 PM',feed:'coz, I am bored.' })
+CREATE (u2)-[:TWEETED]->(t26)
+CREATE (t27:Feed{ 
+feed_id:'t27',user_id:'u3',created_at:'13/11/2019 10:52:55 PM',feed:'I am in love with the hyderabad climate.' })
+CREATE (u3)-[:TWEETED]->(t27)
+CREATE (t28:Feed{ 
+feed_id:'t28',user_id:'u3',created_at:'13/11/2019 10:52:55 PM',feed:'I wish, Ihad this device in my school days.' })
+CREATE (u3)-[:TWEETED]->(t28)
+CREATE (t29:Feed{ 
+feed_id:'t29',user_id:'u3',created_at:'13/11/2019 10:52:55 PM',feed:'yeahshville, coz you can never say nah to this city.' })
+CREATE (u3)-[:TWEETED]->(t29)
+CREATE (t30:Feed{ 
+feed_id:'t30',user_id:'u3',created_at:'13/11/2019 10:52:55 PM',feed:'Tesla + Twitter -> Twizzler' })
+CREATE (u3)-[:TWEETED]->(t30)
+CREATE (t31:Feed{ 
+feed_id:'t31',user_id:'u4',created_at:'13/11/2019 10:52:55 PM',feed:'Eat-drink-travel.' })
+CREATE (u4)-[:TWEETED]->(t31)
+CREATE (t32:Feed{ 
+feed_id:'t32',user_id:'u4',created_at:'13/11/2019 10:52:55 PM',feed:'Excited to work with Tesla Service to enable same-hour service as often as possible! Applying Formula 1 pit crew techniques to Teslas.' })
+CREATE (u4)-[:TWEETED]->(t32)
+CREATE (t33:Feed{ 
+feed_id:'t33',user_id:'u4',created_at:'13/11/2019 10:52:55 PM',feed:'Beauty is pain.' })
+CREATE (u4)-[:TWEETED]->(t33)
+CREATE (t34:Feed{ 
+feed_id:'t34',user_id:'u4',created_at:'13/11/2019 10:52:55 PM',feed:'More Tesla commodity prices are trending down than up fwiw' })
+CREATE (u4)-[:TWEETED]->(t34)
+CREATE (t35:Feed{ 
+feed_id:'t35',user_id:'u4',created_at:'13/11/2019 10:52:55 PM',feed:'Heatwave in Shortville' })
+CREATE (u4)-[:TWEETED]->(t35)
+CREATE (t36:Feed{ 
+feed_id:'t36',user_id:'u5',created_at:'13/11/2019 10:52:55 PM',feed:'Try voice command “open butthole” on your Tesla' })
+CREATE (u5)-[:TWEETED]->(t36)
+CREATE (t37:Feed{ 
+feed_id:'t37',user_id:'u5',created_at:'13/11/2019 10:52:55 PM',feed:'Inflation might be trending down.' })
+CREATE (u5)-[:TWEETED]->(t37)
+CREATE (t38:Feed{ 
+feed_id:'t38',user_id:'u5',created_at:'13/11/2019 10:52:55 PM',feed:'Much harder to make friends than enemies. My skill at the latter is improving.' })
+CREATE (u5)-[:TWEETED]->(t38)
+CREATE (t39:Feed{ 
+feed_id:'t39',user_id:'u5',created_at:'13/11/2019 10:52:56 PM',feed:'Das Baby would be a hit!' })
+CREATE (u5)-[:TWEETED]->(t39)
+CREATE (t40:Feed{ 
+feed_id:'t40',user_id:'u6',created_at:'13/11/2019 10:52:57 PM',feed:'All Teslas come with a free karaoke app' })
+CREATE (u6)-[:TWEETED]->(t40)
+CREATE (t41:Feed{ 
+feed_id:'t41',user_id:'u7',created_at:'13/11/2019 10:52:57 PM',feed:'The media is a click-seeking machine dressed up as a truth-seeking machine.' })
+CREATE (u7)-[:TWEETED]->(t41)
+CREATE (t42:Feed{ 
+feed_id:'t42',user_id:'u8',created_at:'13/11/2019 10:52:57 PM',feed:'This is compatible with existing religions – surely God would want us to see Creation?' })
+CREATE (u8)-[:TWEETED]->(t42)
+CREATE (t43:Feed{ 
+feed_id:'t43',user_id:'u9',created_at:'13/11/2019 10:52:57 PM',feed:'Congratulations for the bHEEMLA NAIK team.' })
+CREATE (u9)-[:TWEETED]->(t43)
+CREATE (t44:Feed{ 
+feed_id:'t44',user_id:'u10',created_at:'13/11/2019 10:52:57 PM',feed:'I hate the concept of demonitization.' })
+CREATE (u10)-[:TWEETED]->(t44)
+CREATE (t45:Feed{ 
+feed_id:'t45',user_id:'u10',created_at:'13/11/2019 10:52:57 PM',feed:'Nothing,Never mind.' })
+CREATE (u10)-[:TWEETED]->(t45)
+CREATE (t46:Feed{ 
+feed_id:'t46',user_id:'u10',created_at:'13/11/2019 10:52:57 PM',feed:'Watched this movie 5 times. I liked it.' })
+CREATE (u10)-[:TWEETED]->(t46)
+CREATE (t47:Feed{ 
+feed_id:'t47',user_id:'u11',created_at:'13/11/2019 10:52:57 PM',feed:'I am feeling sad for her.' })
+CREATE (u11)-[:TWEETED]->(t47)
+CREATE (t48:Feed{ 
+feed_id:'t48',user_id:'u11',created_at:'13/11/2019 10:52:57 PM',feed:'Highest pay check of the year for me' })
+CREATE (u11)-[:TWEETED]->(t48)
+CREATE (t49:Feed{ 
+feed_id:'t49',user_id:'u12',created_at:'13/11/2019 10:52:57 PM',feed:'Times when going on a vacay is not good.' })
+CREATE (u12)-[:TWEETED]->(t49)
+CREATE (t50:Feed{ 
+feed_id:'t50',user_id:'u12',created_at:'13/11/2019 10:52:57 PM',feed:'Evidence for forbearance.' })
+CREATE (u12)-[:TWEETED]->(t50)
+
+
+
+CREATE (c1:Comments{ 
+tweet_id:'t1',comment:'Congratulations',commented_by:'u1',created_id:'1/1/2022 12:00:00 AM' })
+CREATE (t1)-[:HAS]->(c1)
+CREATE (c2:Comments{ 
+tweet_id:'t1',comment:'I understand that as much as you would understand how to pronounce this road right outside of Vegas..',commented_by:'u3',created_id:'1/1/2022 12:06:50 AM' })
+CREATE (t1)-[:HAS]->(c2)
+CREATE (c3:Comments{ 
+tweet_id:'t3',comment:'Congratulations',commented_by:'u3',created_id:'6/7/2021 11:56:00 PM' })
+CREATE (t3)-[:HAS]->(c3)
+CREATE (c4:Comments{ 
+tweet_id:'t4',comment:'i will hold you to this, if i remember, which i probably wont',commented_by:'u15',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t4)-[:HAS]->(c4)
+CREATE (c5:Comments{ 
+tweet_id:'t5',comment:'jyfjvvgghes',commented_by:'u15',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t5)-[:HAS]->(c5)
+CREATE (c6:Comments{ 
+tweet_id:'t7',comment:'uguyfvyt nder investment and pending dues',commented_by:'u11',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t7)-[:HAS]->(c6)
+CREATE (c7:Comments{ 
+tweet_id:'t8',comment:'ubiguyfu of under investment and pending dues',commented_by:'u10',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t8)-[:HAS]->(c7)
+CREATE (c8:Comments{ 
+tweet_id:'t1',comment:'igubyg jhgklm bm y the vicious cycle of under investment and pending dues',commented_by:'u12',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t1)-[:HAS]->(c8)
+CREATE (c9:Comments{ 
+tweet_id:'t2',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u10',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t2)-[:HAS]->(c9)
+CREATE (c10:Comments{ 
+tweet_id:'t7',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u9',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t7)-[:HAS]->(c10)
+CREATE (c11:Comments{ 
+tweet_id:'t8',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u11',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t8)-[:HAS]->(c11)
+CREATE (c12:Comments{ 
+tweet_id:'t7',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u6',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t7)-[:HAS]->(c12)
+CREATE (c13:Comments{ 
+tweet_id:'t7',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u10',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t7)-[:HAS]->(c13)
+CREATE (c14:Comments{ 
+tweet_id:'t8',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u11',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t8)-[:HAS]->(c14)
+CREATE (c15:Comments{ 
+tweet_id:'t9',comment:'skegnhj',commented_by:'u16',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t9)-[:HAS]->(c15)
+CREATE (c16:Comments{ 
+tweet_id:'t10',comment:'kjjkjj',commented_by:'u15',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t10)-[:HAS]->(c16)
+CREATE (c17:Comments{ 
+tweet_id:'t11',comment:'ioskefn',commented_by:'u16',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t11)-[:HAS]->(c17)
+CREATE (c18:Comments{ 
+tweet_id:'t11',comment:'jio njdj kdnfg jng',commented_by:'u15',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t11)-[:HAS]->(c18)
+CREATE (c19:Comments{ 
+tweet_id:'t11',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u15',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t11)-[:HAS]->(c19)
+CREATE (t15)-[:HAS]->(c19)
+CREATE (c20:Comments{ 
+tweet_id:'t15',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u18',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t15)-[:HAS]->(c20)
+CREATE (c21:Comments{ 
+tweet_id:'t16',comment:'hjjkkl,mnbs',commented_by:'u18',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t16)-[:HAS]->(c21)
+CREATE (c22:Comments{ 
+tweet_id:'t16',comment:'For long,  power sector has been ',commented_by:'u17',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t16)-[:HAS]->(c22)
+CREATE (c23:Comments{ 
+tweet_id:'t19',comment:'jkkslf',commented_by:'u13',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t19)-[:HAS]->(c23)
+CREATE (c24:Comments{ 
+tweet_id:'t19',comment:'For long, stment and pending dues',commented_by:'u14',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t19)-[:HAS]->(c24)
+CREATE (c25:Comments{ 
+tweet_id:'t19',comment:'For long, India power sector has been plagued by the vicious cycle of under investment and pending dues',commented_by:'u12',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t19)-[:HAS]->(c25)
+CREATE (c26:Comments{ 
+tweet_id:'t19',comment:'For dues',commented_by:'u15',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t19)-[:HAS]->(c26)
+CREATE (c27:Comments{ 
+tweet_id:'t19',comment:'Fjdhb',commented_by:'u16',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t19)-[:HAS]->(c27)
+CREATE (c28:Comments{ 
+tweet_id:'t19',comment:'Fhjbjhdbbkjd',commented_by:'u18',created_id:'12/12/2021 11:56:00 PM' })
+CREATE (t19)-[:HAS]->(c28)
+CREATE (c29:Comments{ 
+tweet_id:'t20',comment:'Fhjbjhdbbkjd',commented_by:'u46',created_id:'12/10/2021 11:16:00 PM' })
+CREATE (t20)-[:HAS]->(c29)
+CREATE (c30:Comments{ 
+tweet_id:'t30',comment:'Fhjbjhdbbkjd',commented_by:'u3',created_id:'12/10/2019 11:56:00 PM' })
+CREATE (t30)-[:HAS]->(c30)
+CREATE (c31:Comments{ 
+tweet_id:'t31',comment:'32 comment',commented_by:'u3',created_id:'12/14/2021 11:56:20 PM' })
+CREATE (t31)-[:HAS]->(c31)
+CREATE (c32:Comments{ 
+tweet_id:'t32',comment:'31 comment',commented_by:'u3',created_id:'12/10/2021 11:26:00 PM' })
+CREATE (t32)-[:HAS]->(c32)
+CREATE (c33:Comments{ 
+tweet_id:'t33',comment:'33 comment',commented_by:'u36',created_id:'12/10/2021 11:16:00 PM' })
+CREATE (t33)-[:HAS]->(c33)
+CREATE (c34:Comments{ 
+tweet_id:'t34',comment:'34 comment',commented_by:'u4',created_id:'12/15/2021 11:56:26 PM' })
+CREATE (t34)-[:HAS]->(c34)
+CREATE (c35:Comments{ 
+tweet_id:'t35',comment:'35 comment',commented_by:'u5',created_id:'12/12/2021 11:56:00 PM' })
+CREATE (t35)-[:HAS]->(c35)
+CREATE (c36:Comments{ 
+tweet_id:'t36',comment:'36 comment',commented_by:'u6',created_id:'11/22/2021 11:56:00 PM' })
+CREATE (t36)-[:HAS]->(c36)
+CREATE (c37:Comments{ 
+tweet_id:'t37',comment:'37 comment',commented_by:'u3',created_id:'11/25/2021 11:56:00 PM' })
+CREATE (t37)-[:HAS]->(c37)
+CREATE (c38:Comments{ 
+tweet_id:'t38',comment:'38 comment',commented_by:'u8',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t38)-[:HAS]->(c38)
+CREATE (c39:Comments{ 
+tweet_id:'t39',comment:'39 comment',commented_by:'u9',created_id:'12/12/2021 11:56:00 PM' })
+CREATE (t39)-[:HAS]->(c39)
+CREATE (c40:Comments{ 
+tweet_id:'t40',comment:'40 comment',commented_by:'u40',created_id:'12/18/2021 11:56:00 AM' })
+CREATE (t40)-[:HAS]->(c40)
+CREATE (c41:Comments{ 
+tweet_id:'t41',comment:'41 comment',commented_by:'u41',created_id:'12/11/2021 11:56:00 AM' })
+CREATE (t41)-[:HAS]->(c41)
+CREATE (c42:Comments{ 
+tweet_id:'t42',comment:'42 comment',commented_by:'u42',created_id:'12/10/2021 11:56:00 AM' })
+CREATE (t42)-[:HAS]->(c42)
+CREATE (c43:Comments{ 
+tweet_id:'t43',comment:'43 comment',commented_by:'u43',created_id:'12/10/2021 11:56:56 PM' })
+CREATE (t43)-[:HAS]->(c43)
+CREATE (c44:Comments{ 
+tweet_id:'t44',comment:'44 comment',commented_by:'u44',created_id:'12/10/2021 11:55:00 PM' })
+CREATE (t44)-[:HAS]->(c44)
+CREATE (c45:Comments{ 
+tweet_id:'t45',comment:'45 comment',commented_by:'u45',created_id:'12/1/2020 11:56:00 PM' })
+CREATE (t45)-[:HAS]->(c45)
+CREATE (c46:Comments{ 
+tweet_id:'t46',comment:'46 comment',commented_by:'u46',created_id:'1/10/2021 11:56:00 PM' })
+CREATE (t46)-[:HAS]->(c46)
+CREATE (c47:Comments{ 
+tweet_id:'t47',comment:'47 comment',commented_by:'u47',created_id:'12/10/2019 11:56:00 PM' })
+CREATE (t47)-[:HAS]->(c47)
+CREATE (c48:Comments{ 
+tweet_id:'t48',comment:'48 comment',commented_by:'u46',created_id:'12/1/2021 11:56:00 PM' })
+CREATE (t48)-[:HAS]->(c48)
+CREATE (c49:Comments{ 
+tweet_id:'t49',comment:'49 comment',commented_by:'u49',created_id:'1/10/2021 11:56:00 PM' })
+CREATE (t49)-[:HAS]->(c49)
+CREATE (c50:Comments{ 
+tweet_id:'t50',comment:'50 comment',commented_by:'u4',created_id:'12/10/2021 11:56:00 PM' })
+CREATE (t50)-[:HAS]->(c50)
+
+
+
+
+
+CREATE (l1:Likes{ 
+tweet_id:'t1',liked_by:'u1',created_at:'1/1/2022 12:00:00 AM' })
+CREATE (t1)-[:LIKED_BY]->(l1)
+CREATE (l2:Likes{ 
+tweet_id:'t2',liked_by:'u2',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l2)
+CREATE (l3:Likes{ 
+tweet_id:'t3',liked_by:'u3',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t3)-[:LIKED_BY]->(l3)
+CREATE (l4:Likes{ 
+tweet_id:'t4',liked_by:'u4',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t4)-[:LIKED_BY]->(l4)
+CREATE (l5:Likes{ 
+tweet_id:'t2',liked_by:'u5',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l5)
+CREATE (l6:Likes{ 
+tweet_id:'t6',liked_by:'u2',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t6)-[:LIKED_BY]->(l6)
+CREATE (l7:Likes{ 
+tweet_id:'t1',liked_by:'u7',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t1)-[:LIKED_BY]->(l7)
+CREATE (l8:Likes{ 
+tweet_id:'t2',liked_by:'u3',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l8)
+CREATE (l9:Likes{ 
+tweet_id:'t9',liked_by:'u4',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l9)
+CREATE (l10:Likes{ 
+tweet_id:'t5',liked_by:'u2',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t5)-[:LIKED_BY]->(l10)
+CREATE (l11:Likes{ 
+tweet_id:'t3',liked_by:'u16',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t3)-[:LIKED_BY]->(l11)
+CREATE (l12:Likes{ 
+tweet_id:'t2',liked_by:'u12',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l12)
+CREATE (l13:Likes{ 
+tweet_id:'t10',liked_by:'u2',created_at:'1/1/2022 12:00:51 AM' })
+CREATE (t10)-[:LIKED_BY]->(l13)
+CREATE (l14:Likes{ 
+tweet_id:'t19',liked_by:'u2',created_at:'1/1/2022 12:02:51 AM' })
+CREATE (t19)-[:LIKED_BY]->(l14)
+CREATE (l15:Likes{ 
+tweet_id:'t15',liked_by:'u2',created_at:'1/1/2022 12:51:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l15)
+CREATE (l16:Likes{ 
+tweet_id:'t16',liked_by:'u2',created_at:'1/1/2022 12:51:51 AM' })
+CREATE (t16)-[:LIKED_BY]->(l16)
+CREATE (l17:Likes{ 
+tweet_id:'t15',liked_by:'u2',created_at:'1/1/2022 12:51:51 AM' })
+CREATE (t15)-[:LIKED_BY]->(l17)
+CREATE (l18:Likes{ 
+tweet_id:'t18',liked_by:'u2',created_at:'1/1/2022 12:51:51 AM' })
+CREATE (t18)-[:LIKED_BY]->(l18)
+CREATE (l19:Likes{ 
+tweet_id:'t19',liked_by:'u2',created_at:'1/1/2022 12:51:51 AM' })
+CREATE (t19)-[:LIKED_BY]->(l19)
+CREATE (l20:Likes{ 
+tweet_id:'t20',liked_by:'u20',created_at:'1/1/2022 12:23:51 AM' })
+CREATE (t20)-[:LIKED_BY]->(l20)
+CREATE (l21:Likes{ 
+tweet_id:'t21',liked_by:'u21',created_at:'1/1/2022 12:10:51 AM' })
+CREATE (t2)-[:LIKED_BY]->(l2)
+CREATE (l22:Likes{ 
+tweet_id:'t22',liked_by:'u1',created_at:'1/1/2022 12:10:51 AM' })
+CREATE (t22)-[:LIKED_BY]->(l22)
+CREATE (l23:Likes{ 
+tweet_id:'t22',liked_by:'u25',created_at:'1/1/2022 12:31:51 AM' })
+CREATE (t22)-[:LIKED_BY]->(l23)
+CREATE (l24:Likes{ 
+tweet_id:'t24',liked_by:'u25',created_at:'1/1/2022 12:32:51 AM' })
+CREATE (t24)-[:LIKED_BY]->(l24)
+CREATE (l25:Likes{ 
+tweet_id:'t25',liked_by:'u25',created_at:'1/1/2022 12:11:51 AM' })
+CREATE (t25)-[:LIKED_BY]->(l25)
+CREATE (l26:Likes{ 
+tweet_id:'t26',liked_by:'u26',created_at:'1/1/2022 12:12:51 AM' })
+CREATE (t22)-[:LIKED_BY]->(l26)
+CREATE (l27:Likes{ 
+tweet_id:'t27',liked_by:'u27',created_at:'1/1/2022 12:27:51 AM' })
+CREATE (t27)-[:LIKED_BY]->(l27)
+CREATE (l28:Likes{ 
+tweet_id:'t28',liked_by:'u26',created_at:'1/1/2022 12:12:51 AM' })
+CREATE (t28)-[:LIKED_BY]->(l28)
+CREATE (l29:Likes{ 
+tweet_id:'t29',liked_by:'u29',created_at:'1/1/2022 12:12:51 AM' })
+CREATE (t29)-[:LIKED_BY]->(l29)
+CREATE (l30:Likes{ 
+tweet_id:'t30',liked_by:'u30',created_at:'5/1/2022 12:12:51 AM' })
+CREATE (t30)-[:LIKED_BY]->(l30)
+CREATE (l31:Likes{ 
+tweet_id:'t31',liked_by:'u31',created_at:'1/1/2022 12:22:51 AM' })
+CREATE (t31)-[:LIKED_BY]->(l31)
+CREATE (l32:Likes{ 
+tweet_id:'t32',liked_by:'u32',created_at:'1/1/2022 12:22:52 AM' })
+CREATE (t32)-[:LIKED_BY]->(l32)
+CREATE (l33:Likes{ 
+tweet_id:'t33',liked_by:'u33',created_at:'1/5/2022 12:22:51 AM' })
+CREATE (t33)-[:LIKED_BY]->(l33)
+CREATE (l34:Likes{ 
+tweet_id:'t34',liked_by:'u34',created_at:'1/1/2021 12:22:51 AM' })
+CREATE (t34)-[:LIKED_BY]->(l34)
+CREATE (l35:Likes{ 
+tweet_id:'t35',liked_by:'u35',created_at:'1/1/2022 12:22:53 AM' })
+CREATE (t35)-[:LIKED_BY]->(l35)
+CREATE (l36:Likes{ 
+tweet_id:'t36',liked_by:'u36',created_at:'1/1/2022 12:22:56 AM' })
+CREATE (t36)-[:LIKED_BY]->(l36)
+CREATE (l37:Likes{ 
+tweet_id:'t37',liked_by:'u37',created_at:'1/1/2021 12:22:51 AM' })
+CREATE (t37)-[:LIKED_BY]->(l37)
+CREATE (l38:Likes{ 
+tweet_id:'t38',liked_by:'u38',created_at:'1/1/2021 12:20:51 AM' })
+CREATE (t38)-[:LIKED_BY]->(l38)
+CREATE (l39:Likes{ 
+tweet_id:'t39',liked_by:'u39',created_at:'1/5/2021 12:20:52 AM' })
+CREATE (t39)-[:LIKED_BY]->(l39)
+CREATE (l40:Likes{ 
+tweet_id:'t40',liked_by:'u40',created_at:'1/1/2021 12:20:51 AM' })
+CREATE (t40)-[:LIKED_BY]->(l40)
+CREATE (l41:Likes{ 
+tweet_id:'t41',liked_by:'u41',created_at:'1/1/2021 12:20:51 AM' })
+CREATE (t41)-[:LIKED_BY]->(l41)
+CREATE (l42:Likes{ 
+tweet_id:'t42',liked_by:'u42',created_at:'1/1/2021 12:20:51 AM' })
+CREATE (t42)-[:LIKED_BY]->(l42)
+CREATE (l43:Likes{ 
+tweet_id:'t43',liked_by:'u43',created_at:'1/1/2021 12:43:51 AM' })
+CREATE (t43)-[:LIKED_BY]->(l43)
+CREATE (l44:Likes{ 
+tweet_id:'t44',liked_by:'u44',created_at:'1/1/2021 12:43:52 AM' })
+CREATE (t44)-[:LIKED_BY]->(l44)
+CREATE (l45:Likes{ 
+tweet_id:'t45',liked_by:'u45',created_at:'6/9/2021 12:43:51 AM' })
+CREATE (t45)-[:LIKED_BY]->(l45)
+CREATE (l46:Likes{ 
+tweet_id:'t46',liked_by:'u46',created_at:'1/1/2021 12:43:46 AM' })
+CREATE (t46)-[:LIKED_BY]->(l46)
+CREATE (l47:Likes{ 
+tweet_id:'t47',liked_by:'u47',created_at:'1/8/2021 12:43:51 PM' })
+CREATE (t47)-[:LIKED_BY]->(l47)
+CREATE (l48:Likes{ 
+tweet_id:'t48',liked_by:'u48',created_at:'6/7/2021 12:43:51 PM' })
+CREATE (t48)-[:LIKED_BY]->(l48)
+CREATE (l49:Likes{ 
+tweet_id:'t49',liked_by:'u49',created_at:'6/5/2021 12:43:51 PM' })
+CREATE (t49)-[:LIKED_BY]->(l49)
+CREATE (l50:Likes{ 
+tweet_id:'t50',liked_by:'u50',created_at:'1/6/2021 12:43:52 PM' })
+CREATE (t50)-[:LIKED_BY]->(l50)
+
+
+
+
+CREATE (r1:Retweet{ 
+tweet_id:'t1',retweeted_by:'u1',created_at:'1/1/2022 12:00:00 AM' })
+CREATE (t1)-[:RETWEETED_BY]->(r1)
+CREATE (r2:Retweet{ 
+tweet_id:'t2',retweeted_by:'u2',created_at:'1/6/2022 12:00:01 AM' })
+CREATE (t2)-[:RETWEETED_BY]->(r2)
+CREATE (r3:Retweet{ 
+tweet_id:'t3',retweeted_by:'u3',created_at:'1/5/2022 12:00:01 AM' })
+CREATE (t3)-[:RETWEETED_BY]->(r3)
+CREATE (r4:Retweet{ 
+tweet_id:'t4',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t4)-[:RETWEETED_BY]->(r4)
+CREATE (r5:Retweet{ 
+tweet_id:'t5',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t5)-[:RETWEETED_BY]->(r5)
+CREATE (r6:Retweet{ 
+tweet_id:'t6',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t6)-[:RETWEETED_BY]->(r6)
+CREATE (r7:Retweet{ 
+tweet_id:'t7',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t7)-[:RETWEETED_BY]->(r7)
+CREATE (r8:Retweet{ 
+tweet_id:'t8',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t8)-[:RETWEETED_BY]->(r8)
+CREATE (r9:Retweet{ 
+tweet_id:'t9',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t9)-[:RETWEETED_BY]->(r9)
+CREATE (r10:Retweet{ 
+tweet_id:'t10',retweeted_by:'u37',created_at:'12/11/2022 12:00:01 AM' })
+CREATE (t10)-[:RETWEETED_BY]->(r10)
+CREATE (r11:Retweet{ 
+tweet_id:'t11',retweeted_by:'u36',created_at:'12/11/2022 12:00:01 AM' })
+CREATE (t11)-[:RETWEETED_BY]->(r11)
+CREATE (r12:Retweet{ 
+tweet_id:'t12',retweeted_by:'u37',created_at:'1/11/2022 12:00:01 PM' })
+CREATE (t12)-[:RETWEETED_BY]->(r12)
+CREATE (r13:Retweet{ 
+tweet_id:'t13',retweeted_by:'u36',created_at:'8/9/2022 12:00:01 AM' })
+CREATE (t13)-[:RETWEETED_BY]->(r13)
+CREATE (r14:Retweet{ 
+tweet_id:'t14',retweeted_by:'u37',created_at:'19/1/2022 12:00:01 AM' })
+CREATE (t14)-[:RETWEETED_BY]->(r14)
+CREATE (r15:Retweet{ 
+tweet_id:'t15',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t15)-[:RETWEETED_BY]->(r15)
+CREATE (r16:Retweet{ 
+tweet_id:'t16',retweeted_by:'u36',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t16)-[:RETWEETED_BY]->(r16)
+CREATE (r17:Retweet{ 
+tweet_id:'t17',retweeted_by:'u36',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t17)-[:RETWEETED_BY]->(r17)
+CREATE (r18:Retweet{ 
+tweet_id:'t18',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t18)-[:RETWEETED_BY]->(r18)
+CREATE (r19:Retweet{ 
+tweet_id:'t19',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t19)-[:RETWEETED_BY]->(r19)
+CREATE (r20:Retweet{ 
+tweet_id:'t20',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t20)-[:RETWEETED_BY]->(r20)
+CREATE (r21:Retweet{ 
+tweet_id:'t21',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t21)-[:RETWEETED_BY]->(r21)
+CREATE (r22:Retweet{ 
+tweet_id:'t22',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t22)-[:RETWEETED_BY]->(r22)
+CREATE (r23:Retweet{ 
+tweet_id:'t23',retweeted_by:'u37',created_at:'17/18/2022 12:00:01 AM' })
+CREATE (t23)-[:RETWEETED_BY]->(r23)
+CREATE (r24:Retweet{ 
+tweet_id:'t24',retweeted_by:'u36',created_at:'15/16/2022 12:00:01 AM' })
+CREATE (t24)-[:RETWEETED_BY]->(r24)
+CREATE (r25:Retweet{ 
+tweet_id:'t25',retweeted_by:'u36',created_at:'13/14/2022 12:00:01 AM' })
+CREATE (t25)-[:RETWEETED_BY]->(r25)
+CREATE (r26:Retweet{ 
+tweet_id:'t26',retweeted_by:'u36',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t26)-[:RETWEETED_BY]->(r26)
+CREATE (r27:Retweet{ 
+tweet_id:'t27',retweeted_by:'u36',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t27)-[:RETWEETED_BY]->(r27)
+CREATE (r28:Retweet{ 
+tweet_id:'t28',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t28)-[:RETWEETED_BY]->(r28)
+CREATE (r29:Retweet{ 
+tweet_id:'t29',retweeted_by:'u37',created_at:'10/11/2022 12:50:01 AM' })
+CREATE (t29)-[:RETWEETED_BY]->(r29)
+CREATE (r30:Retweet{ 
+tweet_id:'t30',retweeted_by:'u37',created_at:'8/9/2022 12:60:01 AM' })
+CREATE (t30)-[:RETWEETED_BY]->(r30)
+CREATE (r31:Retweet{ 
+tweet_id:'t31',retweeted_by:'u37',created_at:'6/7/2022 12:00:01 AM' })
+CREATE (t31)-[:RETWEETED_BY]->(r31)
+CREATE (r32:Retweet{ 
+tweet_id:'t32',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t32)-[:RETWEETED_BY]->(r32)
+CREATE (r33:Retweet{ 
+tweet_id:'t33',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t33)-[:RETWEETED_BY]->(r33)
+CREATE (r34:Retweet{ 
+tweet_id:'t34',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t34)-[:RETWEETED_BY]->(r34)
+CREATE (r35:Retweet{ 
+tweet_id:'t35',retweeted_by:'u34',created_at:'5/5/2022 12:00:01 AM' })
+CREATE (t35)-[:RETWEETED_BY]->(r35)
+CREATE (r36:Retweet{ 
+tweet_id:'t36',retweeted_by:'u37',created_at:'1/5/2022 12:00:01 AM' })
+CREATE (t36)-[:RETWEETED_BY]->(r36)
+CREATE (r37:Retweet{ 
+tweet_id:'t37',retweeted_by:'u37',created_at:'5/1/2022 12:00:01 AM' })
+CREATE (t37)-[:RETWEETED_BY]->(r37)
+CREATE (r38:Retweet{ 
+tweet_id:'t38',retweeted_by:'u38',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t38)-[:RETWEETED_BY]->(r38)
+CREATE (r39:Retweet{ 
+tweet_id:'t39',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t39)-[:RETWEETED_BY]->(r39)
+CREATE (r40:Retweet{ 
+tweet_id:'t40',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t40)-[:RETWEETED_BY]->(r40)
+CREATE (r41:Retweet{ 
+tweet_id:'t41',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t41)-[:RETWEETED_BY]->(r41)
+CREATE (r42:Retweet{ 
+tweet_id:'t42',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t42)-[:RETWEETED_BY]->(r42)
+CREATE (r43:Retweet{ 
+tweet_id:'t43',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t43)-[:RETWEETED_BY]->(r43)
+CREATE (r44:Retweet{ 
+tweet_id:'t44',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t44)-[:RETWEETED_BY]->(r44)
+CREATE (r45:Retweet{ 
+tweet_id:'t45',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t45)-[:RETWEETED_BY]->(r45)
+CREATE (r46:Retweet{ 
+tweet_id:'t46',retweeted_by:'u37',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t46)-[:RETWEETED_BY]->(r46)
+CREATE (r47:Retweet{ 
+tweet_id:'t47',retweeted_by:'u35',created_at:'4/1/2022 12:00:01 AM' })
+CREATE (t47)-[:RETWEETED_BY]->(r47)
+CREATE (r48:Retweet{ 
+tweet_id:'t48',retweeted_by:'u36',created_at:'3/1/2022 12:00:01 AM' })
+CREATE (t48)-[:RETWEETED_BY]->(r48)
+CREATE (r49:Retweet{ 
+tweet_id:'t49',retweeted_by:'u36',created_at:'2/1/2022 12:00:01 AM' })
+CREATE (t49)-[:RETWEETED_BY]->(r49)
+CREATE (r50:Retweet{ 
+tweet_id:'t50',retweeted_by:'u35',created_at:'1/1/2022 12:00:01 AM' })
+CREATE (t50)-[:RETWEETED_BY]->(r50)
